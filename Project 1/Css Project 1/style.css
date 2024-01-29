@@ -1,0 +1,210 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            nav {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                max-width: 1280px;
+                margin: 30px auto;
+            }
+            
+            .logoDiv {
+                display: flex;
+                align-items: center;
+            }
+            
+            #brandName {
+                font-size: 30px;
+                margin-left: 15px;
+                font-weight: 500;
+            }
+            
+            .navLinks {
+                display: flex;
+                gap: 70px;
+            }
+            
+            .navLinks a {
+                text-decoration: none;
+                color: #A1A1A1;
+            }
+            
+            .myButton {
+                padding: 15px 30px;
+                font-size: 15px;
+                border-radius: 0%;
+                outline: none;
+                border: 1px solid black;
+                color: black;
+                background-color: white;
+                cursor: pointer;
+            }
+            
+            .getStarted {
+                background-color: #FF5203;
+                border: none;
+                color: #fff;
+            }
+            
+            #heroTitle {
+                font-size: 65px;
+                text-transform: uppercase;
+                line-height: 85px;
+            }
+            
+            #heroSubtitle {
+                color: #8E8E8E;
+                width: 380px;
+                font-size: 22px;
+                line-height: 30px;
+                margin: 30px 0;
+                border-left: 2px solid #8E8E8E;
+                padding-left: 20px;
+            }
+            
+            .buttonDiv {
+                display: flex;
+                gap: 20px;
+            }
+            
+            #curveArrow {
+                position: absolute;
+                bottom: -20px;
+                right: 190px;
+            }
+            
+            .heroContainer {
+                height: 50vh;
+                max-width: 1280px;
+                margin: 100px auto;
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            .pattern {
+                position: absolute;
+                top: -40px;
+                right: 0;
+                z-index: 30;
+            }
+            
+            .man {
+                width: 320px;
+                position: absolute;
+                top: 0px;
+                right: 80px;
+                border-radius: 125px;
+            }
+            
+            .bg {
+                position: absolute;
+                top: 0px;
+                right: 0;
+            }
+            
+            #orangeArrow {
+                position: absolute;
+                right: 0;
+            }
+            
+            #greenArrow {
+                position: absolute;
+                bottom: -50px;
+                left: -550px;
+            }
+            
+            #circle {
+                position: absolute;
+                bottom: -50px;
+                right: 0px;
+            }
+            
+            .footerContainer {
+                background-color: #262543;
+            }
+            
+            .footerTitle {
+                color: #fff;
+                font-weight: 600;
+                font-size: 40px;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+            
+            .footerSubTitle {
+                color: #acacac;
+                margin-top: 15px;
+            }
+            
+            footer {
+                display: flex;
+                gap: 60px;
+                max-width: 1280px;
+                margin: 0 auto;
+                padding: 60px 0;
+            }
+            
+            .footerCardTitle {
+                text-transform: uppercase;
+                color: #fff;
+                font-size: 25px;
+                margin: 10px 0;
+            }
+            
+            .vector1,
+            .vector2,
+            .vector3 {
+                padding: 10px 10px;
+                border-radius: 8px;
+            }
+            
+            .vector3 {
+                background-color: #1CD7AF;
+            }
+            
+            .vector2 {
+                background-color: #FC5B11;
+            }
+            
+            .vector1 {
+                background-color: #525BF1;
+            }
+            
+            .footerCardData {
+                color: #acacac;
+                margin-top: 15px;
+            }
+            /* Media Query */
+            
+            @media screen and (max-width: 768px) {
+                #heroTitle {
+                    font-size: 35px;
+                    text-transform: uppercase;
+                    line-height: 45px;
+                }
+                .navLinks {
+                    display: none;
+                    gap: 70px;
+                }
+                .heroContainer {
+                    height: 50vh;
+                    max-width: 1280px;
+                    margin: 100px auto;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                }
+                footer {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 60px;
+                    max-width: 1280px;
+                    margin: 0 auto;
+                    padding: 60px 0;
+                }
+            }
